@@ -1,0 +1,46 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/react-app/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/react-app/build
+
+# misc
+.DS_Store
+/react-app/.env.local
+/react-app/.env.development.local
+/react-app/.env.test.local
+/react-app/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+/laravel-api/vendor/
+/laravel-api/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+/laravel-api/bootstrap/compiled.php
+laravel-api/app/storage/
+
+# Laravel 5 & Lumen specific
+laravel-api/public/storage
+laravel-api/public/hot
+
+# Laravel 5 & Lumen specific with changed public path
+/laravel-api/public_html/storage
+/laravel-api/public_html/hot
+
+/laravel-api/storage/*.key
+/laravel-api/.env
+/laravel-api/Homestead.yaml
+/laravel-api/Homestead.json

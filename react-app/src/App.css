@@ -1,0 +1,31 @@
+body {
+  font-family: "Neutra Text", sans-serif;
+  color: #322625;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ebebeb;
+  text-align: left;
+}
+
+th {
+  background-color: #c0e3e5;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #fdc936;
+}
